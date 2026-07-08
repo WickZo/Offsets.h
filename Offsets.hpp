@@ -1,28 +1,26 @@
+// Roblox version : version-90f2fddd3b244ff6
+
+// Total FFlags : 13908
+
+// Generated on : 2026-07-06 19:06:39
+
+
+
 #pragma once
-/* =============================================================
-/*                       theo's offsets                         
-/*                  https://offsets.imtheo.lol                  
-/* -------------------------------------------------------------
-/*  Dumped With     : RbxDumperV2                               
-/*  Roblox Version  : version-5cf2272675e145f5
-/*  Dumper Version  : 2.1.7
-/*  Dumped At       : 21:32 30/06/2026 (GMT)
-/*  Total Offsets   : 13811
-/* -------------------------------------------------------------
-/*  Join the discord!                                           
-/*  https://offsets.imtheo.lol/discord                          
-/* =============================================================
-*/
 
 #include <cstdint>
-#include <string>
+
+
+
 namespace FFlagOffsets {
 
-    namespace FFlagList {
-         inline constexpr uintptr_t Pointer = 0x843d0a8;
-         inline constexpr uintptr_t ToFlag = 0x30;
-         inline constexpr uintptr_t ToValue = 0xc0;
-    }
+    inline constexpr uintptr_t FFlagList = 0x843d0a8;
+
+    inline constexpr uintptr_t ValueGetSet = 0x30;
+
+    inline constexpr uintptr_t FlagToValue = 0xc0;
+
+}
 
     namespace FFlags {
          inline constexpr uintptr_t ACEAnimationFromVideoCreatorServiceWithAssetImport = 0x7dfe140;
