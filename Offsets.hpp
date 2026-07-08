@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace FFlagOffsets {
-    inline std::string ClientVersion = "version-5cf2272675e145f5";
+    inline std::string ClientVersion = "version-90f2fddd3b244ff6";
 
     namespace FFlagList {
          inline constexpr uintptr_t Pointer = 0x843d0a8;
